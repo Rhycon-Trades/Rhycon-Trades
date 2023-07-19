@@ -89,7 +89,6 @@ function Footer() {
               </li>
               <li className="footer__link">
                 <Link className="link" to="">
-                  Courses
                 </Link>
               </li>
             </ul>
