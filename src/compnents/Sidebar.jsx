@@ -158,7 +158,7 @@ function Sidebar({
                   }`}
                 >
                   <Link className="channel__btn--link" to="/app/crypto_channel">
-                   <a href="https://emoji.gg/emoji/Bitcoin"><img src="https://cdn3.emoji.gg/emojis/Bitcoin.png" width="64px" height="64px" alt="Bitcoin"></a>crypto chat{" "}
+                   <a href="https://emoji.gg/emoji/Bitcoin"><img src="https://cdn3.emoji.gg/emojis/Bitcoin.png" width="64px" height="64px" alt="Bitcoin"></a> crypto chat{" "}
                     {user.crypto_channel && (
                       <span className="mention-count">
                         {user.crypto_channel}
