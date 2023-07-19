@@ -80,7 +80,7 @@ function Sidebar({
                 }`}
               >
                 <Link className="channel__btn--link" to="/app/intro">
-                  Introduction{" "}
+                  👋Introduction{" "}
                   {user.intro && (
                     <span className="mention-count">{user.intro}</span>
                   )}
@@ -92,7 +92,7 @@ function Sidebar({
                 }`}
               >
                 <Link className="channel__btn--link" to="/app/faq">
-                  faq{" "}
+                  ❓faq{" "}
                   {user.faq && (
                     <span className="mention-count">{user.faq}</span>
                   )}
@@ -104,7 +104,7 @@ function Sidebar({
                 }`}
               >
                 <Link className="channel__btn--link" to="/app/announcements">
-                  announcements{" "}
+                  📣announcements{" "}
                   {user.announcements && (
                     <span className="mention-count">{user.announcements}</span>
                   )}
@@ -116,7 +116,7 @@ function Sidebar({
                 }`}
               >
                 <Link className="channel__btn--link" to="/app/results">
-                  results{" "}
+                  🎉results{" "}
                   {user.results && (
                     <span className="mention-count">{user.results}</span>
                   )}
@@ -145,7 +145,7 @@ function Sidebar({
                 }`}
               >
                 <Link className="channel__btn--link" to="/app/begginer">
-                  begginer 's chat{" "}
+                  🧭begginer 's chat{" "}
                   {user.begginer && (
                     <span className="mention-count">{user.begginer}</span>
                   )}
@@ -158,7 +158,7 @@ function Sidebar({
                   }`}
                 >
                   <Link className="channel__btn--link" to="/app/crypto_channel">
-                   crypto chat{" "}
+                   🚀crypto chat{" "}
                     {user.crypto_channel && (
                       <span className="mention-count">
                         {user.crypto_channel}
@@ -178,7 +178,7 @@ function Sidebar({
                   }`}
                 >
                   <Link className="channel__btn--link" to="/app/premium">
-                    premium chat{" "}
+                    🔒premium chat{" "}
                     {user.premium && (
                       <span className="mention-count">{user.premium}</span>
                     )}
@@ -192,7 +192,7 @@ function Sidebar({
                   }`}
                 >
                   <Link className="channel__btn--link" to="/app/forex_channel">
-                    forex chat{" "}
+                    💱forex chat{" "}
                     {user.forex_channel && (
                       <span className="mention-count">
                         {user.forex_channel}
@@ -208,7 +208,7 @@ function Sidebar({
                   }`}
                 >
                   <Link className="channel__btn--link" to="/app/stocks_channel">
-                    stocks chat{" "}
+                    📈stocks chat{" "}
                     {user.stocks_channel && (
                       <span className="mention-count">
                         {user.stocks_channel}
@@ -227,7 +227,7 @@ function Sidebar({
                     className="channel__btn--link"
                     to="/app/free_signals_channel"
                   >
-                    free_signals chat{" "}
+                    🆓free_signals chat{" "}
                     {user.free_signals_channel && (
                       <span className="mention-count">
                         {user.free_signals_channel}
@@ -246,7 +246,7 @@ function Sidebar({
                     className="channel__btn--link"
                     to="/app/marketing_chat"
                   >
-                    Marketing chat{" "}
+                    🤝Marketing chat{" "}
                     {user.free_signals_channel && (
                       <span className="mention-count">
                         {user.free_signals_channel}
@@ -261,7 +261,7 @@ function Sidebar({
                 }`}
               >
                 <Link className="channel__btn--link" to="/app/ask">
-                  ask a mentor{" "}
+                  🙋‍♂️ask a mentor{" "}
                   {user.ask && (
                     <span className="mention-count">{user.ask}</span>
                   )}
@@ -305,7 +305,7 @@ function Sidebar({
                 }`}
               >
                 <Link className="channel__btn--link" to="/app/claim">
-                  claim roles{" "}
+                  ✅claim roles{" "}
                   {user.claim && (
                     <span className="mention-count">{user.claim}</span>
                   )}
@@ -317,7 +317,7 @@ function Sidebar({
                 }`}
               >
                 <Link className="channel__btn--link" to="/app/polls">
-                  polls{" "}
+                  🗳️polls{" "}
                   {user.polls && (
                     <span className="mention-count">{user.polls}</span>
                   )}
@@ -333,7 +333,7 @@ function Sidebar({
                   className={`channels__btn ${checked === 16 && "staff"}`}
                 >
                   <Link className="channel__btn--link" to="/app/staff">
-                    staff room{" "}
+                    📅staff room{" "}
                     {user.staff && (
                       <span className="mention-count">{user.staff}</span>
                     )}
