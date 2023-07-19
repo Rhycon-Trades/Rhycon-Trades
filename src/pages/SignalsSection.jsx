@@ -13,7 +13,7 @@ function SignalsSection() {
             <p>1st week <b className="purple">Free</b></p>
         </li>
         <li className="feature--list__item">
-            <p>crypto, stocks and forex</p>
+            <p>Crypto, stocks and forex</p>
         </li>
         <li className="feature--list__item">
             <p><b className="purple">Affordable</b> price</p>
