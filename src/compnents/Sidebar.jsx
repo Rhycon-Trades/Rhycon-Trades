@@ -133,7 +133,7 @@ function Sidebar({
                 }`}
               >
                 <Link className="channel__btn--link" to="/app/general">
-                  General chat{" "}
+                  💬General chat{" "}
                   {user.general && (
                     <span className="mention-count">{user.general}</span>
                   )}
