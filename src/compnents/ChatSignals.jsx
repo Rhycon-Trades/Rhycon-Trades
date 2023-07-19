@@ -21,7 +21,7 @@ function ChatSignals(isChat) {
                     <p>Interact with the <b className="purple">community</b></p>
                 </li>
                 <li className="feature--list__item">
-                    <p><b className="purple">experience</b> rhycon</p>
+                    <p><b className="purple">Experience</b> Rhycon</p>
                 </li>
             </ul>
             <Link to='/signin'>
@@ -29,7 +29,7 @@ function ChatSignals(isChat) {
             </Link>
             </div>
             <figure className='feature--img chatsignals--img' style={{maxWidth:"450px"}}>
-                <img src="https://media.discordapp.net/attachments/1116431288132444160/1118625771175563334/IMG_1988.png?width=728&height=409" alt="" />
+                <img src="https://cdn.discordapp.com/attachments/1075874020299395134/1131216160701026324/Rhycon_Trades_4.png" alt="" />
             </figure>
         </>}
     </main>
