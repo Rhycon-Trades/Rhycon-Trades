@@ -84,7 +84,7 @@ function Footer() {
               </li>
               <li className="footer__link">
                 <Link className="link" to="/products">
-                  indicators
+                  Products
                 </Link>
               </li>
               <li className="footer__link">
