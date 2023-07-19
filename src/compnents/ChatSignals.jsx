@@ -28,7 +28,7 @@ function ChatSignals(isChat) {
                 <button className='features__btn'>Sign Up</button>
             </Link>
             </div>
-            <figure className='feature--img chatsignals--img' style={{maxWidth:"550px"}}>
+            <figure className='feature--img chatsignals--img' style={{maxWidth:"650px"}}>
                 <img src="https://cdn.discordapp.com/attachments/1075874020299395134/1131216160701026324/Rhycon_Trades_4.png" alt="" />
             </figure>
         </>}
