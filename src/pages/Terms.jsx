@@ -122,11 +122,13 @@ function Terms() {
 <p>1.2 Non-Personal Information: In addition to personal information, we may collect non-personal data, such as your browser type, device information, and anonymized usage statistics.</p>
         <br></br>
 How We Collect Information
+        <br></br>
 <p>2.1 Information You Provide: We collect information that you voluntarily submit to us through our website, including when you fill out contact forms, subscribe to our newsletter, or interact with our customer support.</p>
         <br></br>
 <p>2.2 Automatically Collected Information: We use cookies and similar tracking technologies to automatically collect certain information about your interactions with our website. This helps us understand how you use our site and improve your browsing experience.</p>
         <br></br>
 How We Use Your Information
+        <br></br>
 <p>3.1 Personal Information: We use your personal information to:
 Respond to your inquiries and provide customer support
 Process your orders and deliver products or services
@@ -134,6 +136,7 @@ Send you updates, newsletters, and marketing communications (you may opt-out at 
 Improve our website and services based on your feedback</p>
         <br></br>
 <p>3.2 Non-Personal Information: Non-personal information is used to analyze website traffic, trends, and user behavior to enhance our website's functionality and user experience.
+  <br></br>
 Sharing of Your Information</p>
         <br></br>
 <p>4.1 Third-Party Service Providers: We may share your information with trusted third-party service providers who assist us in operating our website, processing payments, and delivering products or services. These providers are obligated to handle your data securely and only for the purposes specified by us.</p>
@@ -141,11 +144,13 @@ Sharing of Your Information</p>
 <p>4.2 Legal Compliance: We may disclose your information if required by law or when we believe that such action is necessary to protect our rights, comply with a judicial proceeding, court order, or legal process served on our website.</p>
         <br></br>
 Your Choices
+        <br></br>
 <p>5.1 Opt-Out: You have the right to opt-out of receiving marketing communications from us. You can do so by following the unsubscribe link provided in our emails or by contacting us directly.</p>
         <br></br>
 <p>5.2 Access and Correction: You may request access to the personal information we hold about you and request corrections if necessary. Please contact us using the information provided at the end of this Privacy Policy.</p>
         <br></br>
 Security
+        <br></br>
 We take the security of your data seriously and implement appropriate technical and organisational measures to protect it. However, no data transmission over the internet or electronic storage method is 100% secure. While we strive to protect your personal information, we cannot guarantee its absolute security.
 Google Site Verification
 Rhycon Trades adheres to Google Site Verification requirements to ensure the authenticity and legitimacy of our website.
