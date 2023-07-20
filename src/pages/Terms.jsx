@@ -99,6 +99,50 @@ function Terms() {
 
       <br />
 
+        <h3> Privacy Policy </h3>
+
+      <p className="terms__para">
+        Privacy Policy for Rhycon Trades
+Effective Date: 20/07/2023
+At Rhycon Trades, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you visit our website and interact with our services. By using our website, you consent to the practices described in this policy.
+Information We Collect
+1.1 Personal Information: We may collect certain personally identifiable information from you, including but not limited to:
+Name
+Email address
+Phone number
+Address
+1.2 Non-Personal Information: In addition to personal information, we may collect non-personal data, such as your browser type, device information, and anonymized usage statistics.
+How We Collect Information
+2.1 Information You Provide: We collect information that you voluntarily submit to us through our website, including when you fill out contact forms, subscribe to our newsletter, or interact with our customer support.
+2.2 Automatically Collected Information: We use cookies and similar tracking technologies to automatically collect certain information about your interactions with our website. This helps us understand how you use our site and improve your browsing experience.
+How We Use Your Information
+3.1 Personal Information: We use your personal information to:
+Respond to your inquiries and provide customer support
+Process your orders and deliver products or services
+Send you updates, newsletters, and marketing communications (you may opt-out at any time)
+Improve our website and services based on your feedback
+3.2 Non-Personal Information: Non-personal information is used to analyze website traffic, trends, and user behavior to enhance our website's functionality and user experience.
+Sharing of Your Information
+4.1 Third-Party Service Providers: We may share your information with trusted third-party service providers who assist us in operating our website, processing payments, and delivering products or services. These providers are obligated to handle your data securely and only for the purposes specified by us.
+4.2 Legal Compliance: We may disclose your information if required by law or when we believe that such action is necessary to protect our rights, comply with a judicial proceeding, court order, or legal process served on our website.
+Your Choices
+5.1 Opt-Out: You have the right to opt-out of receiving marketing communications from us. You can do so by following the unsubscribe link provided in our emails or by contacting us directly.
+5.2 Access and Correction: You may request access to the personal information we hold about you and request corrections if necessary. Please contact us using the information provided at the end of this Privacy Policy.
+Security
+We take the security of your data seriously and implement appropriate technical and organisational measures to protect it. However, no data transmission over the internet or electronic storage method is 100% secure. While we strive to protect your personal information, we cannot guarantee its absolute security.
+Google Site Verification
+Rhycon Trades adheres to Google Site Verification requirements to ensure the authenticity and legitimacy of our website.
+Contact Information
+If you have any questions or concerns regarding this Privacy Policy or the data we hold about you, please contact us at:
+Rhycon Trades Email: rhycontrades.com 
+Changes to the Privacy Policy
+We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date. We encourage you to review this Privacy Policy periodically to stay informed about how we are protecting your information.
+By using our website, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.
+
+      </p>
+
+      <br />
+
       <h3 className="terms__out"> Thank you for using Rhycon Trades! </h3>
     </div>
   );
