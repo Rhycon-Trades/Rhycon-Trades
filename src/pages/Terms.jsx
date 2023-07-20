@@ -137,8 +137,7 @@ Improve our website and services based on your feedback</p>
         <br></br>
 <p>3.2 Non-Personal Information: Non-personal information is used to analyze website traffic, trends, and user behavior to enhance our website's functionality and user experience.
   <br></br>
-Sharing of Your Information</p>
-        <br></br>
+Sharing of Your Information
 <p>4.1 Third-Party Service Providers: We may share your information with trusted third-party service providers who assist us in operating our website, processing payments, and delivering products or services. These providers are obligated to handle your data securely and only for the purposes specified by us.</p>
         <br></br>
 <p>4.2 Legal Compliance: We may disclose your information if required by law or when we believe that such action is necessary to protect our rights, comply with a judicial proceeding, court order, or legal process served on our website.</p>
