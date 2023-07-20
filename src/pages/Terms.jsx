@@ -151,15 +151,18 @@ Your Choices
         <br></br>
 Security
         <br></br>
-We take the security of your data seriously and implement appropriate technical and organisational measures to protect it. However, no data transmission over the internet or electronic storage method is 100% secure. While we strive to protect your personal information, we cannot guarantee its absolute security.
-Google Site Verification
-Rhycon Trades adheres to Google Site Verification requirements to ensure the authenticity and legitimacy of our website.
-Contact Information
-If you have any questions or concerns regarding this Privacy Policy or the data we hold about you, please contact us at:
-Rhycon Trades Email: rhycontrades.com 
-Changes to the Privacy Policy
-We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date. We encourage you to review this Privacy Policy periodically to stay informed about how we are protecting your information.
-By using our website, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.
+<p>We take the security of your data seriously and implement appropriate technical and organisational measures to protect it. However, no data transmission over the internet or electronic storage method is 100% secure. While we strive to protect your personal information, we cannot guarantee its absolute security.</p>
+<br></br>
+        Google Site Verification
+<p>Rhycon Trades adheres to Google Site Verification requirements to ensure the authenticity and legitimacy of our website.</p>
+<br></br>
+        Contact Information
+<p>If you have any questions or concerns regarding this Privacy Policy or the data we hold about you, please contact us at:</p>
+<p>Rhycon Trades Email: rhycontrades.com</p> 
+<br></br>
+        Changes to the Privacy Policy
+<p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date. We encourage you to review this Privacy Policy periodically to stay informed about how we are protecting your information.
+By using our website, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.</p>
 
       </p>
 
