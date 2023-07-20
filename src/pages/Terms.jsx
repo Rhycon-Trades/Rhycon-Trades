@@ -111,13 +111,13 @@ function Terms() {
         <p>Information We Collect</p>
         <br></br>
 1.1 Personal Information: We may collect certain personally identifiable information from you, including but not limited to:
-<p>Name<p/> 
+<p>Name</p> 
         <br></br>
-<p>Email address<p/>
+<p>Email address</p>
         <br></br>
-<p>Phone number<p/>
+<p>Phone number</p>
         <br></br>
-<p>Address<p/>
+<p>Address</p>
         <br></br>
 1.2 Non-Personal Information: In addition to personal information, we may collect non-personal data, such as your browser type, device information, and anonymized usage statistics.
 How We Collect Information
