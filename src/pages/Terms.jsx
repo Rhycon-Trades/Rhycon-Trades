@@ -105,13 +105,20 @@ function Terms() {
         <p>Privacy Policy for Rhycon Trades</p>
         <br></br>
 <p>Effective Date: 20/07/2023</p>           
-At Rhycon Trades, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you visit our website and interact with our services. By using our website, you consent to the practices described in this policy.
-Information We Collect
+<br></br>
+        At Rhycon Trades, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, disclose, and safeguard your data when you visit our website and interact with our services. By using our website, you consent to the practices described in this policy.
+<br></br>
+        Information We Collect
+        <br></br>
 1.1 Personal Information: We may collect certain personally identifiable information from you, including but not limited to:
 Name
+        <br></br>
 Email address
+        <br></br>
 Phone number
+        <br></br>
 Address
+        <br></br>
 1.2 Non-Personal Information: In addition to personal information, we may collect non-personal data, such as your browser type, device information, and anonymized usage statistics.
 How We Collect Information
 2.1 Information You Provide: We collect information that you voluntarily submit to us through our website, including when you fill out contact forms, subscribe to our newsletter, or interact with our customer support.
