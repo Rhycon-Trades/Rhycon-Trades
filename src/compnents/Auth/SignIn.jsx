@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Operation from "../../ui/Operation";
 import { doc, updateDoc } from "firebase/firestore";
 
+
 function SignIn({ setUser , usersList }) {
 
   const [operation , setOperation] = useState(false)
@@ -15,6 +16,7 @@ function SignIn({ setUser , usersList }) {
   const [isOpenEmailInput, setIsOpenEmailInput] = useState(false)
   const [email, setEmail] = useState('')
   const [isSentEmail, setIsSentEmail] = useState(false);
+
 
 
   function displayOperation(message , state){
@@ -47,12 +49,26 @@ function SignIn({ setUser , usersList }) {
 
   async function signInWithGoogle() {
     const user = await googleAuth();
-    console.log('user', user)
+
+    if(user){
+      displayOperation("you are now signed in" , true)
+    setTimeout(() => {
+  
+      window.location.pathname = '/'
+    },1000)
+    }
 
   };
   async function signInWithFacebook(){
     const user = await facebookAuth();
-    console.log('user', user)
+
+    if(user){
+      displayOperation("you are now signed in" , true)
+    setTimeout(() => {
+  
+      window.location.pathname = '/'
+    },1000)
+    }
   }
 
   useEffect(() => {
@@ -68,17 +84,27 @@ function SignIn({ setUser , usersList }) {
           
         })
 
-        if(isSignInWithEmailLink(auth, window.location.href)){
-          const email = localStorage.getItem('email');
-         
-          signInWithEmailLink(auth, localStorage.getItem('email'), window.location.href)
-          .then((res)=> {
-            if(res.user){
-              
-            }
-            localStorage.removeItem('email')
-          })
+       
+  },[])
+
+  useEffect(()=> {
+    if(isSignInWithEmailLink(auth, window.location.href)){
+      const email = localStorage.getItem('email');
+     
+      signInWithEmailLink(auth, localStorage.getItem('email'), window.location.href)
+      .then((res)=> {
+        if(res.user){
+          setUser(res.user)
+          displayOperation("you are now signed in" , true)
+            setTimeout(() => {
+              localStorage.removeItem('email')
+              window.location.pathname = '/'
+            },1000)
         }
+      })
+    }
+
+    return ()=> {}
   },[])
 
   return (
