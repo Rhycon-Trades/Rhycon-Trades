@@ -7,6 +7,8 @@ import Operation from "../../ui/Operation";
 import { doc, updateDoc } from "firebase/firestore";
 
 
+
+
 function SignIn({ setUser , usersList }) {
 
   const [operation , setOperation] = useState(false)
@@ -16,6 +18,7 @@ function SignIn({ setUser , usersList }) {
   const [isOpenEmailInput, setIsOpenEmailInput] = useState(false)
   const [email, setEmail] = useState('')
   const [isSentEmail, setIsSentEmail] = useState(false);
+
 
 
 
@@ -52,10 +55,9 @@ function SignIn({ setUser , usersList }) {
 
     if(user){
       displayOperation("you are now signed in" , true)
-    setTimeout(() => {
-  
-      window.location.pathname = '/'
-    },1000)
+      setTimeout(() => {
+        window.location.pathname = '/'
+      },1000)
     }
 
   };
@@ -64,21 +66,25 @@ function SignIn({ setUser , usersList }) {
 
     if(user){
       displayOperation("you are now signed in" , true)
-    setTimeout(() => {
-  
-      window.location.pathname = '/'
-    },1000)
+      setTimeout(() => {
+        window.location.pathname = '/'
+      },1000)
     }
   }
 
   useEffect(() => {
+
+    const user = auth.currentUser;
+    if (user) {
+      window.location.pathname = '/'
+    } 
     getRedirectResult(auth)
         .then((userCredential) => {
           setUser(userCredential.user)
+          console.log('userCredential', userCredential)
           displayOperation("you are now signed in" , true)
-            setTimeout(() => {
-              window.location.pathname = '/'
-            },2000)
+          window.location.pathname = '/'
+       
         })
         .catch(() => {
           
@@ -88,6 +94,10 @@ function SignIn({ setUser , usersList }) {
   },[])
 
   useEffect(()=> {
+    const user = auth.currentUser;
+    if (user) {
+      window.location.pathname = '/'
+    } 
     if(isSignInWithEmailLink(auth, window.location.href)){
       const email = localStorage.getItem('email');
      
@@ -96,10 +106,9 @@ function SignIn({ setUser , usersList }) {
         if(res.user){
           setUser(res.user)
           displayOperation("you are now signed in" , true)
-            setTimeout(() => {
-              localStorage.removeItem('email')
-              window.location.pathname = '/'
-            },1000)
+          window.location.pathname = '/'
+          localStorage.removeItem('email')
+
         }
       })
     }
@@ -128,7 +137,7 @@ function SignIn({ setUser , usersList }) {
 
                 isSentEmail ? <p style={{color:'green'}}>We sent sign in link on your email.</p> 
                 :
-                <form onSubmit={handleSendEmailInvitation} class="input-container">
+                <form onSubmit={handleSendEmailInvitation} className="input-container">
                 <input onChange={(e)=> setEmail(e.target.value)} value={email} type="text" placeholder="Enter your email here" />
                 <button><FontAwesomeIcon className="block__provider--logo facebook" icon="fa-solid fa-arrow-right" /></button>
               </form>

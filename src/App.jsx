@@ -77,6 +77,11 @@ function App() {
   useEffect(() => {
     autoSignIn();
     getUsers();
+    const user = auth.currentUser;
+    console.log('user', user)
+    if (user) {
+      window.location.pathname = '/'
+    } 
   }, []);
 
   useEffect(() => {
@@ -131,7 +136,7 @@ function App() {
         if (signalsDuration <= today) {
           post = { premium_signals: false };
         }
-        updateDoc(doc(db, "users", user?.docId), post);
+        // updateDoc(doc(db, "users", user?.docId), post);
       }
     }
   }, [user]);
@@ -147,7 +152,7 @@ function App() {
         }
       }
       }
-  },[usersList])
+  },[usersList, user])
 
   function rewardInviter(inviterUid){
     updateDoc(doc(db , 'users' , user.docId) , {inviter:inviterUid})
