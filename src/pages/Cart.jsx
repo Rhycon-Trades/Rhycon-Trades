@@ -50,18 +50,6 @@ function Cart({cart, usersList , setCart , user}) {
     </main>
   );
 }
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11277191164"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'AW-11277191164');
-</script>
-<!-- Event snippet for Begin checkout conversion page -->
-<script>
-  gtag('event', 'conversion', {'send_to': 'AW-11277191164/ejZnCO-K-MUYEPyPsYEq'});
-</script>
 
 export default Cart;
