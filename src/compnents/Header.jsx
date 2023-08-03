@@ -56,7 +56,9 @@ function Header({products}) {
                 <p>How does 1 week of copying a Pro Traders exact trades for only $10 sound?</p>
                 <ul className="buy--list">
                   <li className="buy--list__item">
-                   why not try it out today 
+                   why not try it out today
+                     </li>
+                </ul>
                 </>
               )
             }
