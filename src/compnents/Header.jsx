@@ -53,25 +53,12 @@ function Header({products}) {
             {
               checked === 3 && (
                 <>
-                <p>Unlock the Rhycon Signals exclusive trading room for unparalleled access to Crypto, Forex, and Stock signals.</p>
+                <p>How does 1 week of copying a Pro Traders exact trades for only $10 sound?</p>
                 <ul className="buy--list">
                   <li className="buy--list__item">
-                    Our expert analysts will help you… 
+                   why not try it out today  
                   </li>
                   <li className="buy--list__item">
-                     Maximize your returns.
-                  </li>
-                  <li className="buy--list__item">
-                    Offer real-time market analysis share cutting-edge strategies.
-                  </li>
-                  <li className="buy--list__item">
-                  Access a community of like minded people 
-                  </li>
-                  <li className="buy--list__item">
-                  Join us and embark on a journey towards unlimited potential.
-                  </li>
-                </ul>
-                <p>join us and embark on a journey towards unlimited potential</p>
                 </>
               )
             }
