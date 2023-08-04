@@ -230,7 +230,7 @@ function AboutProduct({ products, cart , user }) {
             <figure className="gallery--img">
               {gallery === 1 && <img className="skeleton-img" src="https://media.discordapp.net/attachments/1045402320252444693/1094942562801954846/unnamed_2.jpg?width=604&height=604"/> }
               {gallery === 2 && <img className="skeleton-img" src="https://media.discordapp.net/attachments/1045402320252444693/1094951282105651220/Untitled_design_16.png?width=604&height=604" alt="" /> }
-              {gallery === 3 && <img className="skeleton-img" src="https://i.postimg.cc/76p17yL7/Screenshot-2023-04-02-224834.png" alt="" /> }
+              {gallery === 3 && <img className="skeleton-img" src="https://cdn.discordapp.com/attachments/1075874020299395134/1136963102475305070/IMG_1641.jpg" alt="" /> }
             </figure>
             <div className="testimonials--arrows">
         <button onClick={slideLeft} className="testimonial__arrow">
