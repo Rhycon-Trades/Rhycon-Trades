@@ -30,7 +30,7 @@ function NAv({ user }) {
               <Link to="/">Home</Link>
             </li>
             <li className="nav--link">
-              <Link to="/products">Products </Link>
+              <Link to="/products">Trading Shop </Link>
             </li>
             <li className="nav--link">
               <Link to="/cart">
