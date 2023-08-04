@@ -38,7 +38,7 @@ function Prodcuts({ products , cart , user ,setCart}) {
       <main>
         <div className="container products-container">
           <div className="products--bar">
-            <h2 className="products-title">Shop</h2>
+            <h2 className="products-title">Trading Shop</h2>
             <div className="products--func">
               <div className="products__filter">
                 <select className="products__filter-sort" name="filter" onChange={(event) => filterProducts(event.target.value)}>
