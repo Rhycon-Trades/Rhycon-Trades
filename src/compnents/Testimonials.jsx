@@ -63,7 +63,7 @@ function Testimonials({ testimonials, user }) {
     <>
       <section style={{backgroundColor:'#f7f7f7'}} id="testimonials">
         <h2 className="section-title">
-          Our Customers are&nbsp;<span className="purple">Satisfied</span>{" "}
+          Leave us a&nbsp;<span className="purple">Review</span>{" "}
         </h2>
         <div id="testimonials-placeholder">
           <div className="testimonials-wrapper">
