@@ -40,7 +40,7 @@ function NAv({ user }) {
             <li className={`nav--link nav--link__btn ${loading && 'nav--link-loading'}`}>
               { loading ? ("") :
               user ? (
-                <Link to="/app/intro">Open App</Link>
+                <Link to="/app/intro">Open Portal</Link>
               ) : (
                 <Link to="/signin">Sign Up</Link>
               )}
