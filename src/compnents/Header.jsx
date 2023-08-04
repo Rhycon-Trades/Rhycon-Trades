@@ -65,24 +65,19 @@ function Header({products}) {
              {
               checked === 2 && (
                 <>
-                <p>If you want to enter the world of Trading, the Blue Badge Trader is the perfect opportunity for you. The plan is designed for people of all skill levels, and you get access to</p>
+                <p>A package created to launch you into the trading world with access to...</p>
                 <ul className="buy--list">
                   <li className="buy--list__item">
-                  Signals 
+                  Premium Signals 
                   </li>
                   <li className="buy--list__item">
-                  Indicator
+                  The Rhycon Indicator
                   </li>
                   <li className="buy--list__item">
-                  The Rhycon trading Manual 
+                  Access to all premium channels 
                   </li>
                   <li className="buy--list__item">
-                  Access to all the premium channels in the Chat Room, where you can connect with other traders and learn from experienced mentors.
- But that's not all. As a bonus, you'll receive a custom blue badge role on the server, giving you the chance to showcase your new knowledge and expertise. 
-
-                  </li>
-                  <li className="buy--list__item">
-                  The Blue Badge Trader is a must-have for anyone looking to gain a competitive edge in the world of trading. So why wait? Sign up today and start your journey toward financial success.
+                 Premium role on the server
                   </li>
                 </ul>
                 </>
