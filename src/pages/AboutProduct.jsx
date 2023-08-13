@@ -229,7 +229,7 @@ function AboutProduct({ products, cart , user }) {
           <div className="gallery">
             <figure className="gallery--img">
               {gallery === 1 && <img className="skeleton-img" src="https://media.discordapp.net/attachments/1045402320252444693/1094942562801954846/unnamed_2.jpg?width=604&height=604"/> }
-              {gallery === 2 && <img className="skeleton-img" src="https://www.canva.com/design/DAFrdDTh0gI/9fj_Sy-fshB68xVD2IyBmw/view?utm_content=DAFrdDTh0gI&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel" alt="" /> }
+              {gallery === 2 && <img className="skeleton-img" src="https://firebasestorage.googleapis.com/v0/b/rhycon-trades.appspot.com/o/images%2Ffc6baacc-ae5a-47bb-957e-6e26396c3b28?alt=media&token=50ae63c7-756f-4d20-ae4a-a71fab35c778" alt="" /> }
               {gallery === 3 && <img className="skeleton-img" src="https://cdn.discordapp.com/attachments/1075874020299395134/1136963102475305070/IMG_1641.jpg" alt="" /> }
             </figure>
             <div className="testimonials--arrows">
