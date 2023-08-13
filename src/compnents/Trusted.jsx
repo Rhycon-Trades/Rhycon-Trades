@@ -1,6 +1,6 @@
 import React from 'react'
 import stripe from '../img/Trustpilot.png'
-import discord from '../img/discord.png'
+import discord from '../img/Screenshot (251).png'
 import tradingview from '../img/tradingview.svg'
 import forbes from '../img/forbes.png'
 
