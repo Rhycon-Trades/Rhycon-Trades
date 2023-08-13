@@ -1,7 +1,7 @@
 import React from 'react'
 import stripe from '../img/Trustpilot.png'
 import discord from '../img/Screenshot (251).png'
-import tradingview from '../img/tradingview.svg'
+import tradingview from '../img/Screenshot (252).png'
 import forbes from '../img/forbes.png'
 
 
