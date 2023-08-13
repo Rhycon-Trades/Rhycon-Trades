@@ -35,8 +35,8 @@ function PopUp({closePopup}) {
     <div id='popup'>
         <button className='popup--mark'><FontAwesomeIcon onClick={closePopup} icon='fa fa-xmark'/></button>
         <div className="popup--content">
-        <h4 className="popup__header">Limited Time <br /> 15% off</h4>
-        <p className="popup__text">Save on your first order and get email-only offers when you join our mailing list.</p>
+        <h4 className="popup__header">Claim <br /> 10% off</h4>
+        <p className="popup__text">Our Official Launch was on 1st of August so here is a small gift to celebrate!.</p>
             <form onSubmit={(event) => addEmail(event)} action="">
                 <input id='popup__input' placeholder='enter your email' required type="email" />
                 <input style={{borderRadius:'10px'}} type='submit' />
