@@ -2,7 +2,7 @@ import React from 'react'
 import stripe from '../img/Trustpilot.png'
 import discord from '../img/Screenshot (251).png'
 import tradingview from '../img/Screenshot (252).png'
-import forbes from '../img/forbes.png'
+import forbes from '../img/Screenshot (253).png'
 
 
 function Trusted() {
